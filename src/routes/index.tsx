@@ -9,13 +9,13 @@ import { journeyStages, opportunities, categories } from "@/data/campus";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Campus Pulse — Your campus opportunities, connected" },
+      { title: "Campus Pulse" },
       {
         name: "description",
         content:
           "Campus Pulse helps students discover internships, hackathons, workshops and clubs, then track the journey from discovery to achievement.",
       },
-      { property: "og:title", content: "Campus Pulse — Your campus opportunities, connected" },
+      { property: "og:title", content: "Campus Pulse" },
       {
         property: "og:description",
         content:
@@ -83,8 +83,8 @@ function Landing() {
         <div className="shell relative">
           <dl className="grid max-w-4xl gap-8 border-t border-border pt-8 sm:grid-cols-3">
             {[
-              { k: "205", v: "live opportunities across six faculties" },
-              { k: "38", v: "organisers posting directly, no reposts" },
+              { k: "24", v: "live opportunities across campus" },
+              { k: "9", v: "organisers posting directly" },
               { k: "4", v: "stages tracked from discovery to achievement" },
             ].map((s) => (
               <div key={s.k}>
@@ -132,7 +132,7 @@ function Landing() {
             <h2 className="mt-4 type-heading">Matched to what you are building.</h2>
           </div>
           <Link to="/explore" className="underline-sweep text-sm font-semibold text-primary">
-            Explore all 205
+            Explore all opportunities
           </Link>
         </div>
 

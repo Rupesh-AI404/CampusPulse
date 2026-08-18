@@ -87,16 +87,16 @@ export interface PulseState {
   applications: Application[];
 }
 
-export const STUDENT_ID = "student-amara";
-export const ORGANIZER_ID = "orbit-labs";
+export const STUDENT_ID = "student-aarati";
+export const ORGANIZER_ID = "college-it-department";
 export const organizerProfile = {
   id: ORGANIZER_ID,
-  name: "Orbit Labs",
-  role: "Campus partner since 2022",
-  initials: "OL",
-  contact: "residency@orbitlabs.io",
+  name: "College IT Department",
+  role: "Academic support programme",
+  initials: "IT",
+  contact: "itdepartment@campus.edu",
   about:
-    "A twelve-person product studio that builds student software. We host residencies, workshops and build nights on North Campus.",
+    "We support students through practical workshops, mentoring and campus technology events.",
 };
 
 /** Demo accounts for the university prototype — not security-grade, by design. */
@@ -208,9 +208,9 @@ export function computeMatch(
 
 function seedState(): PulseState {
   const owners: Record<string, string> = {
-    "orbit-frontend-residency": ORGANIZER_ID,
-    "data-storytelling-lab": "faculty-statistics",
-    "nightshift-hackathon": "computing-society",
+    "react-fullstack-workshop": ORGANIZER_ID,
+    "nepal-ui-ux-design-challenge": "innovation-entrepreneurship-center",
+    "kathmandu-valley-hackfest": "student-developer-community",
     "founders-case-cup": "enterprise-cell",
     "spring-industry-night": "careers-office",
     "robotics-build-collective": "robotics-collective",
@@ -228,7 +228,7 @@ function seedState(): PulseState {
   const applications: Application[] = [
     {
       id: "app-seed-1",
-      opportunityId: "orbit-frontend-residency",
+      opportunityId: "react-fullstack-workshop",
       studentId: "student-tarek",
       studentName: "Tarek Aziz",
       studentYear: "Second year · BSc Software Engineering",
@@ -236,14 +236,14 @@ function seedState(): PulseState {
       studentInterests: ["Frontend engineering", "Developer tooling"],
       motivation:
         "I have shipped two side projects to real users and want to learn how a team decides what not to build.",
-      experience: "Built the Computing Society events site; maintained it for a year.",
+      experience: "Built the Student Developer Community events page and helped maintain it for a year.",
       match: 86,
       appliedAt: new Date(Date.now() - 1000 * 60 * 60 * 52).toISOString(),
       status: "pending",
     },
     {
       id: "app-seed-2",
-      opportunityId: "orbit-frontend-residency",
+      opportunityId: "react-fullstack-workshop",
       studentId: "student-lin",
       studentName: "Lin Hartley",
       studentYear: "Third year · BA Design & Computing",
@@ -251,8 +251,8 @@ function seedState(): PulseState {
       studentInterests: ["Product design", "Accessibility"],
       motivation:
         "I want to close the gap between the components I design and the ones that ship.",
-      experience: "Ran the accessibility audit at Nightshift 48 last spring.",
-      note: "Available from March 20.",
+      experience: "Worked on accessibility improvements during last year's Inter-College Coding Competition.",
+      note: "Available from September 1.",
       match: 81,
       appliedAt: new Date(Date.now() - 1000 * 60 * 60 * 26).toISOString(),
       status: "pending",

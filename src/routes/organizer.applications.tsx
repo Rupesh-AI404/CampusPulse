@@ -230,7 +230,7 @@ function ReviewApplications() {
         )}
 
         <p className="mt-10 text-xs text-muted-foreground">
-          Reviewing as Orbit Labs.{" "}
+          Reviewing as College IT Department.{" "}
           <Link to="/organizer/opportunities" className="text-primary">
             Back to my opportunities
           </Link>

@@ -122,7 +122,7 @@ export function OpportunityForm({ existing }: { existing?: StoredOpportunity }) 
             value={title}
             onChange={(e) => setTitle(e.target.value)}
             maxLength={80}
-            placeholder="Orbit Frontend Residency"
+            placeholder="React & Full-Stack Development Workshop"
             className="w-full bg-transparent font-display text-xl font-bold tracking-tight placeholder:font-sans placeholder:text-base placeholder:font-normal placeholder:text-muted-foreground focus:outline-none"
           />
         </Field>
@@ -278,8 +278,8 @@ export function OpportunityForm({ existing }: { existing?: StoredOpportunity }) 
       <aside className="lg:sticky lg:top-24 lg:self-start">
         <div className="panel panel-signal p-6">
           <p className="marker">Organiser</p>
-          <p className="mt-3 font-display text-base font-bold tracking-tight">Orbit Labs</p>
-          <p className="mt-1 text-xs text-muted-foreground">Campus partner since 2022</p>
+          <p className="mt-3 font-display text-base font-bold tracking-tight">College IT Department</p>
+          <p className="mt-1 text-xs text-muted-foreground">Academic support programme</p>
           <p className="mt-5 border-t border-border pt-5 text-sm leading-relaxed text-muted-foreground">
             Students see the short description first, then the story. Be specific about what they
             will actually do — vague postings get vague applicants.

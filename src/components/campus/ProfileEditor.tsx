@@ -272,7 +272,7 @@ export function ProfileEditor({ onDone }: { onDone: () => void }) {
                   <input
                     value={s.evidence.join(", ")}
                     onChange={(e) => setSkill(i, { evidence: e.target.value.split(",") })}
-                    placeholder="Nightshift 48 prototype, UI Systems Workshop"
+                    placeholder="HackFest prototype, Campus Innovation Workshop"
                     className="w-full bg-transparent text-sm focus:outline-none"
                   />
                 </Field>
@@ -324,7 +324,7 @@ export function ProfileEditor({ onDone }: { onDone: () => void }) {
               onChange={(e) => setAchievements(e.target.value)}
               rows={4}
               className="w-full resize-y bg-transparent text-sm leading-relaxed focus:outline-none"
-              placeholder={"UI Systems Workshop credit | Orbit Labs | Feb 2026"}
+              placeholder={"Campus Innovation Workshop | Innovation & Entrepreneurship Center | Aug 2026"}
             />
           </Field>
         </div>
