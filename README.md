@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 📌 Campus Pulse
 
 Campus Pulse is a web-based student opportunity management platform designed to connect university students with academic, professional, and extracurricular opportunities — all in one place.
@@ -129,3 +130,6 @@ campus-pulse/
     □
 
     Student-to-student collaboration features
+=======
+
+>>>>>>> ad75c6c2f86d42b985f0355a676818ae890f02f1
